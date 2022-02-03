@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: auto;
+  width: auto;
+}
+.header{
+  display: grid;
+  background: linear-gradient(180deg, #2F364B 0%, #262B3D 85.25%);
+  width: auto;
+  height: auto;
+}
+.menu_header{
+  margin: 10vh 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+}
+.menu_header .logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.menu_header .logo .circle{
+  background-color: #00BAC7;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.menu_header .logo .circle p{
+  color: #fff;
+}
+.menu_header .logo h1{
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  ;
+
+}
+.menu_header .link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+.menu_header .link_item{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+  list-style: none;
+}
+.menu_header .link_item:active, .menu_header .link_item:hover{
+  color: #FFFFFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+.menu_header .button{
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 100px;
+}
+.menu_header .button:hover{
+  cursor: pointer;
+
+}
+.menu_header .button_text{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #272D3E;
+}
+.content_header{
+  display: flex;
+}
+.content_header .info{
+  margin: 0 0 0 10vw;
+  width: 40vw;
+}
+.content_header .info_title{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+.content_header .info_subtitle{
+  width: 85%;
+  margin-top: 4vh;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.content_header .info_div{
+  display: flex;
+  width: 85%;
+  margin: 8vh 0;
+  justify-content: space-between;
+}
+.content_header .info_button{
+  display: flex;
+  background: #00BAC7;
+  box-shadow: 0px 15px 30px rgba(0, 186, 199, 0.33);
+  border-radius: 100px;
+  width: 200px;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 25px;
+}
+.content_header .info_button:hover{
+  cursor: pointer;
+}
+.content_header .info_button_text{
+    
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #F4F7FF;
+}
+.content_header .info_button_icon{
+    color: #fff;
+
+  
+}
+.content_header .info_downloads_icon{
+  color: #fff;
+
+}
+.content_header .info_downloads{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+.content_header .info_downloads_div{
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+.content_header .info_downloads_div .description{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.content_header .info_downloads_div .value{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.content_header .info_technology{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.4);
+}
+.content_header .info_technology_list{
+  display: flex;
+  margin: 4vh 0;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+}
+.content_header .info_technology_list_item:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.content_header .image{
+  position: relative;
+  width: 40vw;
+  height: auto;
+}
+.content_header .image img{
+  position:absolute;
+  top: -7vh;
+  left: 0px;
+  height : auto;
+  width : 100%;
+}
+.border_header{
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  height: 70px;
+}
+
+ 
+
+
