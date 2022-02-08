@@ -25,6 +25,9 @@ body{
   align-items: center;
   width: auto;
 }
+.menu_header .isActive{
+  visibility: visible;
+}
 .menu_header .logo{
   display: flex;
   justify-content: space-between;
@@ -61,6 +64,27 @@ body{
   align-items: center;
   width: 500px;
 }
+.menu_header .link_responsive{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.menu_header .link_responsive_item{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+  list-style: none;
+  text-align: right;
+  visibility: hidden;
+}
+.menu_header .link_responsive_item:active, .menu_header .link_responsive_item:hover{
+  color: #FFFFFF;
+  font-weight: 700;
+  cursor: pointer;
+}
 .menu_header .link_item{
   font-family: DM Sans;
   font-style: normal;
@@ -74,6 +98,21 @@ body{
   color: #FFFFFF;
   font-weight: 700;
   cursor: pointer;
+}
+.menu_header .button_responsive{
+  position: absolute;
+  top: 97px;
+  right: 10vw;
+  color: aqua;
+  visibility: hidden;
+
+}
+.menu_header .button_responsive_close{
+  position: absolute;
+  top: 97px;
+  right: 10vw;
+  color: aqua;
+  visibility: hidden;
 }
 .menu_header .button{
   background: #FFFFFF;
@@ -223,9 +262,48 @@ body{
 .border_header{
   background-color: #fff;
   border: none;
-  width: 100%;
+  width: 100vw;
   height: 70px;
 }
+
+@media only screen and (max-width: 1300px) {
+  .menu_header {
+    display: block;
+    height: 40px;
+  }
+  .menu_header .link{
+    display: none;
+  }
+  .menu_header .link_responsive{
+    display: block;
+  }
+  .menu_header .button {
+    display: none;
+  }
+  .content_header{
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_header .info {
+    margin: 0 10vw 0 10vw;
+    width: auto;
+  }
+  .content_header .image {
+    position: relative;
+    width: 80vw;
+    top: 0px;
+    height: auto;
+  }
+  .content_header .image img {
+    width: 100%;
+    position: relative;
+  }
+}
+
+
+
 
  
 
