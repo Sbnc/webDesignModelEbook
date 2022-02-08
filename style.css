@@ -26,7 +26,7 @@ body{
   width: auto;
 }
 .menu_header .isActive{
-  visibility: visible;
+  display: block;
 }
 .menu_header .logo{
   display: flex;
@@ -78,7 +78,7 @@ body{
   color: rgba(255, 255, 255, 0.8);
   list-style: none;
   text-align: right;
-  visibility: hidden;
+  display: none;
 }
 .menu_header .link_responsive_item:active, .menu_header .link_responsive_item:hover{
   color: #FFFFFF;
@@ -104,7 +104,7 @@ body{
   top: 97px;
   right: 10vw;
   color: aqua;
-  visibility: hidden;
+  display: none;
 
 }
 .menu_header .button_responsive_close{
@@ -112,7 +112,7 @@ body{
   top: 97px;
   right: 10vw;
   color: aqua;
-  visibility: hidden;
+  display: none;
 }
 .menu_header .button{
   background: #FFFFFF;
